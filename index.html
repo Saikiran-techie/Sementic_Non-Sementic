@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Full Stack Developer Application Form</title>
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+
+      <center>
+      <h1>Application Form</h1>
+
+      <table>
+        <tr>
+          <td> <label for="">Full Name: <sup style="color: red">*</sup> </label> </td>
+          <td> <input type="text" name="Name" value="" placeholder="Enter Your Full Name" required minlength="3" maxlength="25"> <br><br> </td>
+        </tr>
+        <tr>
+          <td> <label for="">Email: <sup style="color: red">*</sup> </label> </td>
+          <td> <input type="email" name="Email" value="" placeholder="Email" multiple required> <br><br> </td>
+        </tr>
+        <tr>
+          <td> <label for="">Mobile Number: <sup style="color: red">*</sup> </label> </td>
+          <td> <input type="number" name="Mobile no" value="" placeholder="Mobile Number" required> <br><br> </td>
+        </tr>
+        <tr>
+          <td> <label for="">Parent Name: <sup style="color: red">*</sup> </label> </td>
+          <td> <input type="text" name="Parent name" value="" placeholder="Parent Name" required minlength="3" maxlength="15"> <br><br> </td>
+        </tr>
+        <tr>
+          <td> <label for="">Parent Mobile no: <sup style="color: red">*</sup> </label> </td>
+          <td> <input type="number" name="Parent mobile no" value="" placeholder="Parent Mobile Number" required> <br><br> </td>
+        </tr>
+        <tr>
+          <td> <label for="">Gender: <sup style="color: red">*</sup> </label> </td>
+          <td> <input type="radio" name="gender" value=""> <label for="">Male</label>
+               <input type="radio" name="gender" value=""> <label for="">Female</label>
+               <input type="radio" name="gender" value=""> <label for="">Others</label> <br><br>
+          </td>
+        </tr>
+        <tr>
+          <td> <label for="">Highest Qualification: <sup style="color: red">*</sup> </label> </td>
+          <td> <input type="text" name="Qualifiation" value="" placeholder="Qualification" required> <br><br> </td>
+        </tr>
+        <tr>
+          <td> <label for="">Branch: <sup style="color: red">*</sup> </label> </td>
+          <td> <input type="text" name="Branch" value="" placeholder="Branch" required> <br><br> </td>
+        </tr>
+        <tr>
+          <td> <label for="">College Name: </label> </td>
+          <td> <input type="text" name="College name" value="" placeholder="College Name" required disabled> <br><br> </td>
+        </tr>
+        <tr>
+          <td> <label for="">Year of Passing: <sup style="color: red">*</sup> </label> </td>
+          <td> <input type="month" name="YOP" value="" placeholder="Year of Passing" required> <br><br> </td>
+        </tr>
+        <tr>
+          <td> <label for="">Marks in Highest Qualifcation (% or CGPA): <sup style="color: red">*</sup> </label> </td>
+          <td> <input type="number" name="Marks" value="" placeholder="Marks" min="1" and max="2" required> <br><br> </td>
+        </tr>
+        <tr>
+          <td> <label for="">Student Education Status: </label> </td>
+          <td> <select class="" name="Status" required>
+                    <option value="Select">--Select--</option>
+                    <option value="completed">Completed</option>
+                    <option value="ongoing">Ongoing</option>
+               </select> <br><br>
+          </td>
+        </tr>
+        <tr>
+          <td> <label for="">Select your Course: <sup style="color: red">*</sup> </label> </td>
+          <td> <input type="text" name="Courses" value="" list="courses" required>
+                  <datalist id="courses">
+                       <option value="Java Full Stack"></option>
+                       <option value="Python Full Stack"></option>
+                       <option value="Front End Full Stack"></option>
+                  </datalist> <br><br>
+          </td>
+        </tr>
+        <tr>
+          <td> <label for="">Mode of training: </label> </td>
+          <td> <input type="radio" name="mode" value=""> <label for="">Offline</label>
+               <input type="radio" name="mode" value=""> <label for="">Online</label> <br><br>
+          </td>
+        </tr>
+      </table>
+
+      <table border="2" style="text-align: center;">
+        <center> <caption style="font-weight: bold;">Course Details</caption> </center>
+        <thead>
+          <tr>
+            <th>Sl.No</th>
+            <th>Course Name</th>
+            <th>Course Fee (in Rs.)</th>
+            <th>Technologies</th>
+            <th>Mode of Training</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1.</td>
+            <td>Java Full Stack</td>
+            <td rowspan="3">39,999/-</td>
+            <td>Java, Spring, Hibernate</td>
+            <td rowspan="3">Offline/Online</td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>Python Full Stack</td>
+            <td>Python, Django, AI & ML</td>
+          </tr>
+          <tr>
+            <td>3.</td>
+            <td>Front End Full Stack</td>
+            <td>HTML, CSS, JavaScript, React</td>
+          </tr>
+        </tbody>
+      </table> <br><br>
+
+      <input type="submit" name="Submit" value="Register">
+
+     </center>
+    </form>
+
+  </body>
+</html>
